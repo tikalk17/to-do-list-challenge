@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(143, 171, 180);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.header h2 {
+    margin-top: 2rem;
+    padding: 20px 400px;
+    border-radius: 3rem;
+    background-color: rgb(3, 97, 8);
+    font-size: 50px;
+    color: rgb(240, 239, 239);
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 10px 10px 10px 20px;
+    border-radius: 3rem;
+    background: rgb(240, 239, 239);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px 10rem 10px 12rem;
+    border-radius: 3rem;
+    border: none;
+}
+
+a {
+    top: 6px;
+    font-size: 30px;
+    position: relative;
+}
